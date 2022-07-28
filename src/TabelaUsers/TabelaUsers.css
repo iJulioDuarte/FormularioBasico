@@ -1,0 +1,14 @@
+.dadosTabela{
+    margin-top: 64px;
+    border: 2px solid black;
+    display:block;
+}
+.dados li{
+    border-bottom: 2px solid black;
+    width: 90%;
+    padding-top: 8px;
+}
+
+.tabelaOculta{
+    display:none;
+}

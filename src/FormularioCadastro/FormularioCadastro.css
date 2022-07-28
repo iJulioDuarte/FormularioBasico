@@ -1,0 +1,63 @@
+.boxForm{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(250, 255, 255);
+    border: 3px solid black;
+    border-radius: 30px;
+    align-content: center;
+    width: 400px;
+}
+.formulario .campos{
+    display:flex;
+    flex-direction: column;
+    width: 80%; 
+}
+
+.formulario .campos input[type=text] {
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 6px;
+    border-radius: 4px;
+    height: 35px;
+    margin-bottom: 16px;
+  }
+
+.formulario button {
+    background-color: #310abb;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+.formulario button:hover{
+    background-color: #3443ea;
+    cursor:pointer; 
+}
+
+.formulario input.error{
+    border-color: red;
+}
+
+.formulario p.error{
+    font-size: 12px;
+    color: red;
+}
+
+
+.auxError{
+    display:none;
+}
